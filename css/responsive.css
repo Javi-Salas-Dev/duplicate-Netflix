@@ -1,24 +1,12 @@
 
 .section__hero {
     position: relative;
-    background: url("../assets/img/fonde_hero.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.342) 60%, rgba(0, 0, 0, 0.952)), url("../assets/img/fonde_hero.jpg");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    z-index: -2;
-}
-
-.section__hero::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: inherit;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.342) 60%, rgba(0, 0, 0, 0.952));
-    z-index: -1;
-    top: 0;
-    left: 0;
 }
 
 .header {
@@ -138,6 +126,7 @@
     font-weight: 500;
     border: none;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .cards {
