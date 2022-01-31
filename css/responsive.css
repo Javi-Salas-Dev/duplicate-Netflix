@@ -155,3 +155,90 @@ font-size: 1.8rem;
     width: 288px;
 }
 
+.cardsFaq {
+    background-color: black;
+    padding: 50px 0;
+    border-bottom: 8px solid #222;
+}
+
+.cards__faq {
+    color: white;
+}
+
+.cards__faq .cards__info--title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards__faq details {
+    background-color: #303030;
+    padding: 15px 20px;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.cards__faq summary {
+    list-style: none;
+}
+
+.cards__faq summary::before {
+    content: "+";
+    margin-right: 10px;
+    font-size: 2.4rem;
+}
+
+details[open] summary::before {
+    content: "-";
+    font-size: 2.4rem;
+}
+
+.cards__faq details {
+    margin: 0 0 10px 0;
+}
+
+.cards__faq div {
+    margin-top: 30px;
+}
+
+.cards__faq h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px 32px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.cards__faq .section__hero--input {
+    display: block;
+    width: 90%;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+    padding-left: 10px;
+    font-size: 1.4rem;
+
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.cards__faq .section__hero--button {
+    display: block;
+    width: 40%;
+    margin: 15px auto;
+    margin-bottom: 0;
+    padding: 13px 10px;
+    font-size: 1.6rem;
+    background-color: #E50914;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
