@@ -1,0 +1,168 @@
+
+.section__hero {
+    position: relative;
+    background: url("../assets/img/fonde_hero.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
+
+.section__hero::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.342) 60%, rgba(0, 0, 0, 0.952));
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px 0 16px;
+}
+
+.box__logo {
+    width: 100px;
+    height: 50px;
+}
+
+.box__logo .logo {
+    width: 100px;
+    height: 50px;
+}
+
+.nav__index {
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+    align-items: center;
+    height: 40px;
+}
+
+.nav__index ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav__index ul .idioma1 {
+    list-style: none;
+    display: flex;
+    border: 1px solid #aaa;
+    padding: 5px 3px;
+    border-radius: 3px;
+}
+
+.nav__index li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding-left: 2px;
+}
+
+.nav__index--login {
+    padding: 5px 5px;
+    background-color: #E50914;
+    border-radius: 3px;
+}
+
+.nav__index--login a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.hero__info {
+    padding: 50px 16px;
+    border-bottom: 8px solid #222;
+}
+
+.section__hero .section__hero--title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.section__hero .section__hero--parrafo1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.section__hero .section__hero--parrafo2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.section__hero .section__hero--input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+    padding-left: 10px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.hero__info .section__hero--button {
+    display: block;
+    width: 40%;
+    margin: 15px auto;
+    padding: 13px 10px;
+    font-size: 1.6rem;
+    background-color: #E50914;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+}
+
+.cards {
+    background-color: black;
+    padding: 50px 16px;
+    border-bottom: 8px solid #222;
+}
+
+.cards .cards__info {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards .cards__info--title {
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+}
+
+.cards .cards__info--description {
+font-size: 1.8rem;
+}
+
+.cards .cards__info img {
+    height: 216px;
+    width: 288px;
+}
+

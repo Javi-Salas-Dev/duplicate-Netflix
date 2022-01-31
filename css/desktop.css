@@ -1,0 +1,177 @@
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 80px;
+}
+
+.header__content1 {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__content1 figure {
+    width: 90px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.header__content1 .logo{
+    width: inherit;
+    height: inherit;
+}
+
+.header__content1 .helpCenter {
+    font-size: 1.8rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.header__content1 .separador {
+    font-size: 3.4rem;
+}
+
+.header__content1 .separador::before {
+    content: "|";
+    color: white;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.header__content1 .helpCenter:hover {
+    text-decoration: underline;
+}
+
+
+.header__content2 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button__register {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.button__register:hover {
+    background-color: rgb(187, 182, 182);
+    color: black;
+    border: 1px solid rgb(187, 182, 182);
+    transition: 0.2s;
+}
+
+.button__login {
+    margin-right: 15px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid red;
+    border-radius: 2px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.button__login:hover {
+    background-color: rgb(223, 5, 5);
+    color: white;
+    transition: 0.2s;
+}
+
+
+main {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+}
+
+main h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.section__cards {
+    position: relative;
+    display: flex;
+    width: 80%;
+    margin: 80px auto ;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+
+.cards {
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 0 15px;
+    box-shadow: 2px 2px 6px 2px rgba(236, 236, 236, 0.3);
+}
+
+.cards .cards__title {
+    font-size: 2.4rem;
+    color: white;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.cards .cards__title span {
+    color: red;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.cards__info h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    margin: 30px 0;
+}
+
+.cards__info p {
+    font-size: 1.4rem;
+    color: white;
+    margin: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards__resultado {
+    font-weight: 900;
+}
+
+.cards__button {
+    background-color: red;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    margin: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+.cards__buttonEstandar {
+    background-color: red;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+}
