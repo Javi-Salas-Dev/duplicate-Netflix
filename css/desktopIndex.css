@@ -1,0 +1,99 @@
+@media (min-width:950px) {
+
+    .section__hero {
+        padding: 10px 40px 0 40px;
+    }
+
+    .header {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 16px 0 16px;
+    }
+    
+    .box__logo {
+        width: 130px;
+        height: 70px;
+    }
+
+    .box__logo .logo {
+        width: 130px;
+        height: 70px;
+    }
+    
+    .nav__index {
+        width: 260px;
+        align-items: center;
+        height: 40px;
+    }
+
+    .nav__index ul .idioma1 {
+        border: 1px solid #aaa;
+        padding: 10px 6px;
+        border-radius: 3px;
+    }
+
+    .nav__index li a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+    }
+    
+    .nav__index--login {
+        padding: 7px 14px;
+        background-color: #E50914;
+        border-radius: 3px;
+    }
+
+    .nav__index--login a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    
+    .hero__info {
+        padding: 170px 16px;
+        border-bottom: 8px solid #222;
+    }
+
+    .section__hero .section__hero--title {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 5rem;
+        text-align: center;
+        padding: 0 80px;
+    }
+
+    .hero__info .section__hero--parrafo2 {
+        padding: 0 40px 20px;
+        font-size: 1.9rem;
+    }
+
+    .hero__info .section__hero--parrafo1 {
+        font-size: 2.6rem;
+        text-align: center;
+        margin: 16px 110px;
+    }
+
+    .hero__info .section__hero--input {
+        display: inline-block;
+        width: 400px;
+        height: 60px;
+        margin: 0;
+    }
+
+    .hero__info .section__hero--button {
+        display: inline-block;
+        width: 200px;
+        height: 60px;
+        font-size: 2.6rem;
+    }
+
+}
