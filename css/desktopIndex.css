@@ -64,11 +64,13 @@
     }
 
     .section__hero .section__hero--title {
+        position: relative;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 5rem;
         text-align: center;
-        padding: 0 80px;
+        margin: 0 auto;
+        max-width: 662px;
     }
 
     .hero__info .section__hero--parrafo2 {
@@ -96,4 +98,53 @@
         font-size: 2.6rem;
     }
 
+    .cards {
+        padding: 70px 45px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .cards__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1100px;
+        width: 1100px;
+    }
+
+    .row-reverse {
+        display: flex;
+        flex-flow: row-reverse;
+        max-width: 1100px;
+    }
+
+    .cards .row-reverse div {
+        padding-left: 40px;
+        padding-right: 0;
+    }
+
+    .cards__info div {
+        width: 60%;
+        padding-right: 40px;
+    }
+
+    .cards__info .cards__info--title {
+        font-size: 5rem;
+        text-align: initial;
+    }
+
+    .cards__info .cards__info--description {
+        font-size: 2.6rem;
+        text-align: initial;
+    }
+
+    .cards__info figure {
+        width: 40%;
+    }
+
+    .cards .cards__info img {
+        width: 380px;
+        height: 310px;
+    }
 }
